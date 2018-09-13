@@ -51,6 +51,8 @@ margin-bottom: 20px;
 .highlight pre {
 margin-bottom: 0px;
 padding: 10px;
+white-space: pre;
+overflow: hidden;
 }
 
 /* Base */
@@ -192,7 +194,7 @@ li	{  list-style-position:inside; }
 #post-body, p { line-height:1.7; }
 
 b, strong {
-	font-weight: 500;
+	font-weight: 600;
 	color: #1E2025;
 }
 em, i { font-style: italic; }
@@ -263,7 +265,7 @@ em, i { font-style: italic; }
 #post-list h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #aaa;
-	max-width: 400px;
+	max-width: 600px;
 	margin-top: 2px;
 }
 
