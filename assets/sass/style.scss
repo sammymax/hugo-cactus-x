@@ -649,6 +649,9 @@ h2.month {
 	.post h2 { font-size:20px; }
 }
 
+@media screen and (max-width: 410px) {
+	#post-meta img.avatar { display: none; }
+}
 
 /* CUSTOM ADDITIONS */
 
