@@ -1,3 +1,15 @@
+# CactusX
+
+CactusX is an improved and modernized version of the [Cactus theme](https://github.com/digitalcraftsman/hugo-cactus-theme). Features include:
+
+* use of .scss instead of .css by leveraging Hugo's asset pipeline feature
+* removal of redundant highlight.js code; Hugo has built-in server-side code highlighting via [Chroma](https://gohugo.io/content-management/syntax-highlighting/)
+* using the more modern `gtag.js` analytics (and loading it asynchronously for better performance) from Google instead of the old `analytics.js`
+
+Install by cloning `https://github.com/sammymax/hugo-cactus-x.git` into your themes `folder`.
+
+The original readme is below.
+
 # Cactus Theme
 
 Cactus is a minimalistic theme for bloggers based on the default theme of the same-named [Cactus static site generator](//github.com/koenbok/Cactus) written in Python and [Nick Balestra](//github.com/nickbalestra/kactus)'s Jekyll port. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, a customizable about page, support for RSS feeds, syntax highlighting for source code, and sharing options for blog posts.
