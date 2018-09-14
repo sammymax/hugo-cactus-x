@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
-	<head>
+    <head>
     {{ partial "head.html" . }}
+    {{ partial "js.html" . }}
     </head>
 <body>
     {{ partial "nav.html" . }}
@@ -11,6 +12,5 @@
 
         {{ partial "footer.html" . }}
     </section>
-    {{ partial "js.html" . }}
 </body>
 </html>
