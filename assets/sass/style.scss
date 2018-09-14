@@ -653,6 +653,14 @@ h2.month {
 	#post-meta img.avatar { display: none; }
 }
 
+#disqus_loader {
+	color: $link-color;
+	background: none;
+	border: 2px $link-color solid;
+	width: 100%;
+	padding: 8px 0px;
+}
+
 /* CUSTOM ADDITIONS */
 
 #social {
