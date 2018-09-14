@@ -3,10 +3,14 @@
 CactusX is an improved and modernized version of the [Cactus theme](https://github.com/digitalcraftsman/hugo-cactus-theme). Features include:
 
 * use of .scss instead of .css by leveraging Hugo's asset pipeline feature
+* asset minification, also via Hugo asset pipeline
 * removal of redundant highlight.js code; Hugo has built-in server-side code highlighting via [Chroma](https://gohugo.io/content-management/syntax-highlighting/)
 * using the more modern `gtag.js` analytics (and loading it asynchronously for better performance) from Google instead of the old `analytics.js`
+* vectorized, svg avatar (never blurry, scales perfectly with DPI)
 
 Install by cloning `https://github.com/sammymax/hugo-cactus-x.git` into your themes `folder`.
+
+![Screenshot](https://raw.githubusercontent.com/sammymax/hugo-cactus-x/master/images/screenshot.png)
 
 The original readme is below.
 
