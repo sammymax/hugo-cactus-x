@@ -3,11 +3,11 @@ baseurl = "https://example.org/"
 themesDir = "../.."
 languageCode = "en-us"
 title = "Hugo Cactus Theme"
-theme = "hugo-cactus-theme"
+theme = "hugo-cactus-x"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "spf13"
+disqusShortname = ""
 
 [params]
 	name = "John Doe"
@@ -34,7 +34,6 @@ disqusShortname = "spf13"
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "I'm an blogger."
 	tweet = ""
 	share = ""
 	# 404 page
@@ -43,12 +42,12 @@ disqusShortname = "spf13"
 
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 	iconFont = "mono-social"
-    # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-    socialIconStyle = "circle"
+	# The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+	socialIconStyle = "circle"
 
 # Add additional social link entries underneath
 [social]
-    twitter  = "https://www.twitter.com/"
-    facebook = "https://www.facebook.com/"
-    github   = "https://www.github.com/"
-    dribble  = "https://www.dribbble.com/"
+	twitter  = "https://www.twitter.com/"
+	facebook = "https://www.facebook.com/"
+	github   = "https://www.github.com/"
+	dribble  = "https://www.dribbble.com/"

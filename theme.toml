@@ -1,15 +1,21 @@
-name = "Cactus"
+name = "CactusX"
 license = "MIT"
-licenselink = "https://github.com/digitalcraftsman/hugo-cactus-theme/blob/master/License.md"
-description = "A minimalistic and responsive theme for bloggers."
-homepage = "https://github.com/digitalcraftsman/hugo-cactus-theme"
+licenselink = "https://github.com/sammymax/hugo-cactus-x/blob/master/LICENSE.md"
+description = "A minimalistic and responsive theme for bloggers, modernized."
+homepage = "https://github.com/sammymax/hugo-cactus-x"
 tags = ["blog", "disqus", "google analytics", "rss", "syntax highlighting"]
-features = ["disqus", "google analytics", "rss", "syntax highlighting", "blog", "pagination", "sharing options"]
-min_version = 0.20
+features = ["disqus", "google analytics", "rss", "blog", "pagination", "sharing options"]
+min_version = 0.43
 
 [author]
+  name = "Phil Sun"
+  homepage = "https://psun.me"
+
+[[original]]
+  # Ported Cactus to Hugo
   name = "digitalcraftsman"
   homepage = "//github.com/digitalcraftsman"
+  repo = "https://github.com/digitalcraftsman/hugo-cactus-theme"
 
 [[original]]
   # Ported the stardard theme of the Cactus for Mac static site generator to Jekyll
