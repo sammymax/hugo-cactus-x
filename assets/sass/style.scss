@@ -185,7 +185,14 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul, ol 	{ margin:0; padding:0; margin-bottom: 20px; }
+ul, ol 	{
+	margin: 0 20px 0 6px;
+	padding: 0;
+
+	ul {
+		margin-left: 30px;
+	}
+}
 ul { list-style-type:circle; }
 ol { list-style: decimal; }
 li	{  list-style-position:inside; }
@@ -240,12 +247,12 @@ em, i { font-style: italic; }
 }
 
 .post h2 {
-	margin-bottom: 40px;
 	font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #111;
 }
 
 .post h2.subtitle {
+	margin-bottom: 40px;
 	font: italic 19px/1.3em Georgia,serif;
 	color: #bbb;
 }
