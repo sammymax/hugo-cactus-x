@@ -1,3 +1,4 @@
+<a class="home" href="{{ .Site.BaseURL}}"><i class="fa fa-home"></i></a>
 <a class="twitter" href="https://twitter.com/intent/tweet?text={{ .Permalink }} - {{ .LinkTitle }} {{ with .Site.Params.twitter }}by @{{ . }}{{ end }}"><span class="icon-twitter"> {{ .Site.Params.tweet | default "Tweet" }}</span></a>
 
 <a class="facebook" href="#" onclick="

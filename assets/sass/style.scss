@@ -466,48 +466,12 @@ Post List
 	font-weight: bold;
 	line-height: 1.4;
 	border-top: 1px solid #eee;
-	padding-top: 40px;
+	padding-top: 10px;
 	margin-bottom: 40px;
 	padding-bottom: 40px;
 	margin-top: 40px;
 	color:#444;
 	border-bottom: 1px solid #eee;
-}
-
-#post-meta div span {
-	color: #aaa;
-	font-weight: 500;
-	display: block;
-}
-
-#post-meta div span.dark {
-	color: #1E2025;
-
-}
-
-#post-meta div {
-	margin: 0 25px 0 0;
-	float: left;
-}
-
-#sharing {
-	float: right;
-	margin: -2px;
-}
-
-#sharing a {
-	font-size: 20px;
-	font-size: 23px;
-	margin-left: 1px;
-	margin-top: 4px;
-	color: #d4d4d4;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#sharing a:hover {
-	/*color: #444;*/
-	opacity: 0.8;
 }
 
 /* Post Navigation */
@@ -593,16 +557,6 @@ h2.month {
 	color: $link-color;
 }
 
-#post-meta img.avatar {
-	height: 36px;
-	width: 36px;
-	float: left;
-	border-radius: 50%;
-	margin-top: 3px;
-	margin-right: 20px;
-	box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
-}
-
 #post-list.archive.readmore h3{
 	font: 400 20px "Helvetica Neue", Helvetica,Arial,sans-serif;
 	margin-bottom: 30px;
@@ -620,21 +574,35 @@ h2.month {
 #post-list.archive.readmore .dates{
 	font: 300 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
+
+#sharing {
+	float: right;
+	margin-bottom: 30px;
+}
+
+#sharing a:hover {
+	opacity: 0.8;
+}
 #sharing a.facebook {
 	background: #4361b3;
 }
 #sharing a.twitter {
 	background: #4fafed;
 }
+#sharing a.home {
+	background: $link-color;
+}
 
 #sharing a {
 	font-size: 20px;
-	font-size: 13px;
-	font-weight: bold;
+	font-weight: normal;
 	color: #fff;
-	padding: 6px 10px;
-	border-radius: 4px;
-	margin-left: 2px;
+	padding: 8px 13px;
+	border-radius: 22px;
+	margin-left: 5px;
+	margin-top: 4px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* Media Queries */
@@ -654,10 +622,6 @@ h2.month {
 	.post h2.headline { font-size: 13px; }
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
-}
-
-@media screen and (max-width: 410px) {
-	#post-meta img.avatar { display: none; }
 }
 
 #disqus_loader {
@@ -689,4 +653,28 @@ a.symbol:hover {
 
 .math .mjpage__block {
 	overflow: auto
+}
+
+#mc_embed_signup h1 {
+	font-size: 24px;
+	letter-spacing: inherit;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+#mc_embed_signup_scroll {
+	display: flex;
+	#mce-EMAIL, #mc-embedded-subscribe {
+		font-size: 16px;
+		padding: 10px;
+		border: 1px solid $link-color;
+	}
+	#mce-EMAIL {
+		flex-grow: 1;
+	}
+	#mc-embedded-subscribe {
+		color: white;
+		background: $link-color;
+		cursor: pointer;
+	}
 }

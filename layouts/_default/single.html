@@ -20,17 +20,14 @@
     </section>
 </article>
 
-<footer id="post-meta" class="clearfix">
-    <a href="{{ .Site.BaseURL }}">
-        <img class="avatar" src="{{ "images/avatar_small.svg" | absURL }}">
-        <div>
-            <span class="dark">{{ .Site.Params.name }}</span>
-            <span>{{ .Site.Params.bio }}</span>
-        </div>
-    </a>
-    <section id="sharing">
-        {{ partial "share.html" . }}
-    </section>
+<footer id="post-meta">
+	<div class="clearfix">
+		<section id="sharing">
+			{{ partial "share.html" . }}
+		</section>
+	</div>
+
+	{{ partial "mailchimp.html" . }}
 </footer>
 
 {{ partial "disqus.html" . }}
