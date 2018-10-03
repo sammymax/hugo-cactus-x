@@ -189,7 +189,7 @@ a,
 }
 
 ul, ol 	{
-	margin: 0 20px 0 6px;
+	margin: 0 20px 20px 20px;
 	padding: 0;
 
 	ul {
@@ -198,7 +198,7 @@ ul, ol 	{
 }
 ul { list-style-type:circle; }
 ol { list-style: decimal; }
-li	{  list-style-position:inside; }
+li	{  list-style-position:outside; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -469,9 +469,8 @@ Post List
 	font-weight: bold;
 	line-height: 1.4;
 	border-top: 1px solid #eee;
-	padding-top: 10px;
 	margin-bottom: 40px;
-	padding-bottom: 40px;
+	padding: 20px 0 25px 0;
 	margin-top: 40px;
 	color:#444;
 	border-bottom: 1px solid #eee;
