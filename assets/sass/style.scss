@@ -653,7 +653,10 @@ a.symbol:hover {
 }
 
 .math .mjpage__block {
-	overflow: auto
+	// for some reason mathjax sometimes makes svg slightly taller than it
+	// should be, leading to slight vertical overflow for no reason
+	overflow-x: auto;
+	overflow-y: hidden;
 }
 
 #mc_embed_signup h1 {
