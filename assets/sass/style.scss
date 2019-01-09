@@ -333,10 +333,15 @@ pre	{
 
 table {
 	width: 100%;
-	margin: 40px 0;
+	margin: 0;
 	border-collapse: collapse;
 	font-size: 13px;
 	line-height: 1.5em;
+}
+
+.table-wrapper {
+	margin: 10px 0px 20px 0px;
+	overflow-x: auto;
 }
 
 th,td {
