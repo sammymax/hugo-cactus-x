@@ -4,6 +4,10 @@ $link-color: #f60;
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+code {
+	font: 13px/1 "Source Code Pro", Menlo, monospace;
+}
+
 /* Clearfix */
 .clearfix:after {
 	content: "";
@@ -66,11 +70,17 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .post h1, h3, h4, h5, p, .post-body ul, ol, pre, .highlight {
 margin-bottom: 20px;
 }
-.highlight pre {
-margin-bottom: 0px;
-padding: 10px;
-white-space: pre;
-overflow: auto;
+.highlight {
+	pre {
+		margin-bottom: 0px;
+		padding: 0.4em 0.4em 0.4em 0.1em;
+		white-space: pre;
+		overflow: auto;
+	}
+	td:first-child>pre {
+		background: #333 !important;
+		padding: 0.4em 0 0.4em 0.4em;
+	}
 }
 
 /* Base */
@@ -323,14 +333,12 @@ pre	{
 	background-color:#fdfdfd;
 	/*font-size:14px;*/
 	overflow:auto;
-	border-radius: 3px;
 	background: #272b2d;
 	font-family: 'Source Code Pro',Menlo,monospace;
 	font-size: 13px;
 	line-height: 1.5em;
 	font-weight: 500;
 	color: #d0d4d7;
-
 }
 
 table {
@@ -655,7 +663,7 @@ a.symbol:hover {
 	color: #BCD4DA;
 }
 
-.math .mjpage__block {
+.mjpage__block {
 	// for some reason mathjax sometimes makes svg slightly taller than it
 	// should be, leading to slight vertical overflow for no reason
 	overflow-x: auto;
