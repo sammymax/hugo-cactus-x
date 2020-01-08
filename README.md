@@ -7,6 +7,7 @@ CactusX is an improved and modernized version of the [Cactus theme](https://gith
 * removal of redundant highlight.js code; Hugo has built-in server-side code highlighting via [Chroma](https://gohugo.io/content-management/syntax-highlighting/)
 * using the more modern `gtag.js` analytics (and loading it asynchronously for better performance) from Google instead of the old `analytics.js`
 * vectorized, svg avatar (never blurry, scales perfectly with DPI)
+* fast loads with [instant.page](https://instant.page/) and minimal icon font set from [fontello](http://fontello.com/)
 
 Install by cloning `https://github.com/sammymax/hugo-cactus-x.git` into your themes `folder`.
 
@@ -46,15 +47,6 @@ Use the about page to introduce yourself to your visitors. You can customize the
 ## Disqus
 
 This theme features a comment system powered by Disqus too. Just add your Disqus-shortname to the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml) and let readers respond to your blog posts.
-
-## Social link icons
-
-You can add a social link panel in the footer by adding entries to the `social` block in the [`config.toml`](//github.com/digitalcraftsman/hugo-cactus-theme/blob/dev/exampleSite/config.toml). You can choose between two icon fonts:
-
-- [Font awesome](https://fortawesome.github.io/Font-Awesome/) or
-- [Mono social icons](https://github.com/drinchev/monosocialiconsfont)
-
-Assign either `font-awesome` or `mono-social` to the `iconFont` variable. The Mono social icons offer three styles of icons: circle, rounded, or default (empty).
 
 ## Nearly finished
 
