@@ -564,6 +564,10 @@ Post List
 	border: 2px $link-color solid;
 	width: 100%;
 	padding: 8px 0px;
+
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 /* CUSTOM ADDITIONS */
