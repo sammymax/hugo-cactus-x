@@ -167,13 +167,24 @@ nav.main-nav a {
 	line-height: 1.35;
 	border-radius: 5px;
 
+	&:hover {
+		color: #ff4814;
+	}
 	&:first-child {
 		margin-left: 0px;
 	}
 	&.cta {
 		padding: 8px 10px;
-		background-image: linear-gradient(red, #ff7d24);
+		background-image: linear-gradient(red, #ff7d24, red);
+		background-size: 100% 200%;
 		color: #fff;
+
+		// show top half of gradient (red -> ff7d24) by default
+		// on hover, show reverse gradient by shifting to bottom half of gradient
+		background-position: 0% 0%;
+		&:hover {
+			background-position: 0% 100%;
+		}
 	}
 }
 
