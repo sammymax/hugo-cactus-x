@@ -1,15 +1,15 @@
 <nav class="main-nav">
 	<a href='{{ .Site.BaseURL }}'>{{ .Site.Params.home | default "Home" }}</a>
 
-	{{ range .Site.Menus.main }}
+	{{- range .Site.Menus.main -}}
 		<a href='{{ .URL }}'>{{ .Name }}</a>
-	{{ end }}
+	{{- end -}}
 
-	{{ if .Site.Params.enableRSS }}
+	{{- if .Site.Params.enableRSS -}}
 		<a href="{{ .Site.RSSLink }}">{{ .Site.Params.subscribe | default "Subscribe" }}</a>
-	{{ end }}
+	{{- end -}}
 
-	{{ if .Site.Params.Mailchimp.Url }}
+	{{- if .Site.Params.Mailchimp.Url -}}
 		<a class="cta" href="{{ "newsletter/" | absURL }}">{{ .Site.Params.newsletter | default "Newsletter" }}</a>
-	{{ end }}
+	{{- end -}}
 </nav>
