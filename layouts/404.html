@@ -3,8 +3,7 @@
     <header>
         <h1>{{ .Site.Params.title404 | default "404 - Page not found" }}</h1>
         <h3>{{ .Site.Params.subtitle404 | default "The content you're looking for doesn't seem to exist." }}</h3>
+        <h3><a href='{{ .Site.BaseURL }}'>{{ .Site.Params.home | default "Home" }}</a></h3>
     </header>
-
-    {{ partial "latest-posts.html" . }}
 </article>
 {{ end }}
