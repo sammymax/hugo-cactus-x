@@ -78,6 +78,10 @@ margin-bottom: 20px;
 		padding: 0.4em 0 0.4em 0.4em;
 	}
 }
+.highlight pre, code {
+	font: 13px/1.5em "Source Code Pro", Menlo, monospace;
+}
+
 
 /* Base */
 html, body { height: 100%; }
@@ -138,14 +142,7 @@ h2 {
 
 nav.main-nav {
 	padding: 20px 20px 0;
-
-	/*max-width: 600px;*/
-	/*width:100%;*/
-	background: #fff;
-	background: rgba(255,255,255,.90);
-	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
 	z-index: 100;
 }
 
@@ -312,25 +309,6 @@ hr {
 	height: 1px;
 	margin: 40px auto;
 	background: #eee;
-}
-
-pre	{
-	white-space:pre-wrap;
-	/*border: 1px solid #ddd;*/
-	padding:20px;
-	background-color:#fdfdfd;
-	/*font-size:14px;*/
-	overflow:auto;
-	background: #272b2d;
-	font-family: 'Source Code Pro',Menlo,monospace;
-	font-size: 13px;
-	line-height: 1.5em;
-	font-weight: 500;
-	color: #d0d4d7;
-}
-
-code {
-	font: 13px/1 "Source Code Pro", Menlo, monospace;
 }
 
 table {
