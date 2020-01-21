@@ -185,19 +185,6 @@ nav.main-nav a {
 	padding: 60px 40px 100px 40px;
 }
 
-#wrapper.home {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 0px 40px 20px 40px;
-}
-
-.home #avatar {
-	float: right;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-}
-
 /* Typography */
 /*Accent color*/
 figcaption {
@@ -206,10 +193,8 @@ figcaption {
 }
 
 a,
-#title,
 #post-list a:hover,
-#post-list li:hover .dates,
-#title:hover {
+#post-list li:hover .dates {
 	text-decoration: none;
 	color: $link-color;
 }
@@ -247,15 +232,6 @@ b, strong {
 	color: #1E2025;
 }
 em, i { font-style: italic; }
-
-#title {
-	display: inline-block;
-	line-height: 100%;
-	font-weight: 500;
-	font-size: 19px;
-	margin: 0;
-	padding-bottom: 20px;
-}
 
 .description {
 	float: right;
@@ -558,7 +534,6 @@ Post List
 	#post-list { margin-top: 0; }
 	#post-meta { margin-top: 60px; }
 
-	#title { font-size: 17px; }
 	#post-list .dates { display: none; }
 
 	#post-list-footer { margin-top: 20px; padding-top: 40px; }
