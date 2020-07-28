@@ -360,11 +360,6 @@ thead th,th {
 	cursor: default;
 	white-space: nowrap;
 }
-
-img {
-	max-width: 100%;
-	border-radius: 3px;
-}
 /*=========================================
 Post List
 =========================================== */
@@ -567,5 +562,15 @@ Post List
 		cursor: pointer;
 		-webkit-appearance: none;
 		-moz-appearance: none;
+	}
+}
+
+figure {
+	img {
+    width: 100%;
+	}
+	p {
+		text-align: center;
+		font-style: italic;
 	}
 }
